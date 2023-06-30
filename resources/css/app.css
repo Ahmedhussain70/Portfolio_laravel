@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #282c34;
+    /* background-color: rgb(15 23 42/var(--tw-bg-opacity)) !important; */
+    color: rgb(2, 183, 255);
+  }
+  
+  .btn-s{
+    border-color:  rgb(2, 183, 255);
+    color: white;
+  }
+  
+  .btn-s:hover{
+    background-color: rgb(2, 183, 255);
+    color: white;
+  }
+  
+  .navbar-brand{
+    color: white !important;
+  }
+  
+  .navbar-brand:hover{
+    color: white;
+  }
+  
+  nav{
+    background-color: #161b22;
+    color: white;
+  }
+  
+  li{
+    font-size: large !important;
+  }
+
+  footer{
+    background-color: #161b22;
+    color: white;
+  }
+
+  .card-service{
+    background-color: #243b58;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    /* background: #888;  */
+    background-color: rgb(2, 143, 199);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    /* background: #555;  */
+    background-color: rgb(0, 121, 168);
+  }
